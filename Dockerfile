@@ -6,7 +6,7 @@ WORKDIR /app
 
 # 3. Copy the JAR file from your target folder to the container
 # Note: You must run 'mvn clean package' on your Mac before building the image
-COPY target/*.jar app.jar
+COPY target/devworks-github-actions-service.jar devworks-github-actions-service.jar
 
 # 4. Tell Docker which port your Spring Boot app runs on
 EXPOSE 8080
