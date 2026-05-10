@@ -12,4 +12,4 @@ COPY target/devworks-github-actions-service.jar devworks-github-actions-service.
 EXPOSE 8080
 
 # 5. The command to run your application
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-jar", "devworks-github-actions-service.jar"]
