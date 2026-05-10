@@ -43,6 +43,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>devworks-github-actions-service</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
