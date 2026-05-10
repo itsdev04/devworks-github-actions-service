@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping
 public class TestController {
-    @GetMapping("/welcome")
-    public ResponseEntity<String> welcome(){
-        return new ResponseEntity<>("Welcome to the Github Actions demo application!", HttpStatus.OK);
-    }
+  @GetMapping("/welcome")
+  public ResponseEntity<String> welcome() {
+    return new ResponseEntity<>("Welcome to the Github Actions demo application!", HttpStatus.OK);
+  }
 }
